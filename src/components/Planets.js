@@ -69,7 +69,7 @@ const planets = [
 export default function Planets(){
 
   const [ data, setData ] = useState(planets)
-  console.log("data", data)
+  // console.log("data", data)
 
   const clear = () => {
     setData([])
@@ -79,7 +79,7 @@ export default function Planets(){
     <div>
       <h3>Planets List</h3>
       <button onClick={() => setData([])}>Clear List</button>
-      {data.map(planet => <p>{planet.name}</p>)}
+      {data.map((planet, index) => <p key={index}>{planet.name}</p>)}
     </div>
   )
 }

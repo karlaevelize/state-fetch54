@@ -1,6 +1,8 @@
 import './App.css';
 import State from './components/Buttons';
 import Planets from './components/Planets';
+import Fetching from './components/Fetching';
+import FetchAgain from './components/FetchAgain';
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <h1>React Hooks</h1>
       <State/>
       <Planets/>
+      <Fetching/>
+      <FetchAgain/>
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function State(){
 
   return(
     <div>
-      <h3>useState</h3>
+      <h2>useState</h2>
       <button onClick={toggleLike}>{like ? "liked" : "click to like"}</button>
      <p><button onClick={decrement}>-</button> {counter} <button onClick={increment}>+</button></p>
      <p></p>
