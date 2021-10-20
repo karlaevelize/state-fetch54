@@ -71,10 +71,6 @@ export default function Planets(){
   const [ data, setData ] = useState(planets)
   // console.log("data", data)
 
-  const clear = () => {
-    setData([])
-  }
-
   return(
     <div>
       <h3>Planets List</h3>
