@@ -7,7 +7,7 @@ import FetchAgain from './components/FetchAgain';
 function App() {
   return (
     <div className="App">
-      <h1>React Hooks</h1>
+      <h1>New Title from Branches</h1>
       <State/>
       <Planets/>
       <Fetching/>
